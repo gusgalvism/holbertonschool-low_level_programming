@@ -79,4 +79,85 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 ]0;vagrant@vagrant-ubuntu-trusty-64: ~/holbertonschool-low_level_programmingvagrant@vagrant-ubuntu-trusty-64:~/holbertonschool-low_level_programming$ git status[5Pcd ..git status[Kgit status[K[K[K[K[K[K[K add 8[K* [K
-]0;vagrant@vagrant-ubuntu-trusty-64: ~/holbertonschool-low_level_programmingvagrant@vagrant-ubuntu-trusty-64:~/holbertonschool-low_level_programming$ git com[K[K[K[K[K[K[Kgit add *status[5Pcd ..git push -u origin master[3Pcommit -m "Task 0"[K[K[K[K[K[K[KR
+]0;vagrant@vagrant-ubuntu-trusty-64: ~/holbertonschool-low_level_programmingvagrant@vagrant-ubuntu-trusty-64:~/holbertonschool-low_level_programming$ git com[K[K[K[K[K[K[Kgit add *status[5Pcd ..git push -u origin master[3Pcommit -m "Task 0"[K[K[K[K[K[K[KREPO"
+[master e960f27] REPO
+ 6 files changed, 73 insertions(+)
+ create mode 100755 0x00-hello_world/1-compiler
+ create mode 100755 0x00-hello_world/2-assembler
+ create mode 100644 0x00-hello_world/README.md
+ create mode 100644 0x00-hello_world/main.c
+ create mode 100644 0x00-hello_world/typescript
+ create mode 100644 README.md
+]0;vagrant@vagrant-ubuntu-trusty-64: ~/holbertonschool-low_level_programmingvagrant@vagrant-ubuntu-trusty-64:~/holbertonschool-low_level_programming$ git push -u origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;vagrant@vagrant-ubuntu-trusty-64: ~/holbertonschool-low_level_programmingvagrant@vagrant-ubuntu-trusty-64:~/holbertonschool-low_level_programming$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+]0;vagrant@vagrant-ubuntu-trusty-64: ~/holbertonschool-low_level_programmingvagrant@vagrant-ubuntu-trusty-64:~/holbertonschool-low_level_programming$ git init
+Reinitialized existing Git repository in /home/vagrant/holbertonschool-low_level_programming/.git/
+]0;vagrant@vagrant-ubuntu-trusty-64: ~/holbertonschool-low_level_programmingvagrant@vagrant-ubuntu-trusty-64:~/holbertonschool-low_level_programming$ git init[1Paddpush -u origin master[5Pcommit -m "REPO"add *[K
+]0;vagrant@vagrant-ubuntu-trusty-64: ~/holbertonschool-low_level_programmingvagrant@vagrant-ubuntu-trusty-64:~/holbertonschool-low_level_programming$ git add *[1Pinit[1Paddpush -u origin master[5Pcommit -m "REPO"
+[master 5368473] REPO
+ 1 file changed, 31 insertions(+), 1 deletion(-)
+]0;vagrant@vagrant-ubuntu-trusty-64: ~/holbertonschool-low_level_programmingvagrant@vagrant-ubuntu-trusty-64:~/holbertonschool-low_level_programming$ git commit -m "REPO"add *[K[1Pinit[1Paddpush -u origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;vagrant@vagrant-ubuntu-trusty-64: ~/holbertonschool-low_level_programmingvagrant@vagrant-ubuntu-trusty-64:~/holbertonschool-low_level_programming$ cd[K[Kgit remote add origin https://github.com/gusgalvism/holbertonschool-low_level_programming.git
+]0;vagrant@vagrant-ubuntu-trusty-64: ~/holbertonschool-low_level_programmingvagrant@vagrant-ubuntu-trusty-64:~/holbertonschool-low_level_programming$ git remote add origin https://github.com/gusgalvism/holbertonschool-low_level_programming.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpush -u origin master[K[5Pcommit -m "REPO"add *[K
+]0;vagrant@vagrant-ubuntu-trusty-64: ~/holbertonschool-low_level_programmingvagrant@vagrant-ubuntu-trusty-64:~/holbertonschool-low_level_programming$ git add *remote add origin https://github.com/gusgalvism/holbertonschool-low_level_programming.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpush -u origin master[K[5Pcommit -m "REPO"
+On branch master
+nothing to commit, working directory clean
+]0;vagrant@vagrant-ubuntu-trusty-64: ~/holbertonschool-low_level_programmingvagrant@vagrant-ubuntu-trusty-64:~/holbertonschool-low_level_programming$ git commit -m "REPO"add *[Kremote add origin https://github.com/gusgalvism/holbertonschool-low_level_programming.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd *[Kcommit -m "REPO"add *[Kcommit -m "REPO"add *[Kcommit -m "REPO"add *[Kcommit -m "REPO"[Kgit commit -m "REPO"[Kls
+[0m[01;34m0x00-hello_world[0m  README.md
+]0;vagrant@vagrant-ubuntu-trusty-64: ~/holbertonschool-low_level_programmingvagrant@vagrant-ubuntu-trusty-64:~/holbertonschool-low_level_programming$ cd ..
+]0;vagrant@vagrant-ubuntu-trusty-64: ~vagrant@vagrant-ubuntu-trusty-64:~$ cd ..[Kls
+[0m[01;34m2020-01-27[0m  [01;34mBetty[0m  [01;34mholbertonschool-low_level_programming[0m  [01;34mholbertonschool-zero_day[0m  [01;34mholberton-system_engineering-devops[0m  typescript
+]0;vagrant@vagrant-ubuntu-trusty-64: ~vagrant@vagrant-ubuntu-trusty-64:~$ hol[K[K[Kcd holberton-system_engineering-devops/
+]0;vagrant@vagrant-ubuntu-trusty-64: ~/holberton-system_engineering-devopsvagrant@vagrant-ubuntu-trusty-64:~/holberton-system_engineering-devops$ ls
+[0m[01;34m0x00-shell_basics[0m  [01;34m0x01-shell_permissions[0m  [01;34m0x02-shell_redirections[0m  [01;34m0x03-shell_variables_expansions[0m  README.md  typescriptShell0x00
+]0;vagrant@vagrant-ubuntu-trusty-64: ~/holberton-system_engineering-devopsvagrant@vagrant-ubuntu-trusty-64:~/holberton-system_engineering-devops$ [H[2J]0;vagrant@vagrant-ubuntu-trusty-64: ~/holberton-system_engineering-devopsvagrant@vagrant-ubuntu-trusty-64:~/holberton-system_engineering-devops$ ls
+[0m[01;34m0x00-shell_basics[0m  [01;34m0x01-shell_permissions[0m  [01;34m0x02-shell_redirections[0m  [01;34m0x03-shell_variables_expansions[0m  README.md  typescriptShell0x00
+]0;vagrant@vagrant-ubuntu-trusty-64: ~/holberton-system_engineering-devopsvagrant@vagrant-ubuntu-trusty-64:~/holberton-system_engineering-devops$ cx03[K[K[K[Kcd 0x03-shell_variables_expansions/
+]0;vagrant@vagrant-ubuntu-trusty-64: ~/holberton-system_engineering-devops/0x03-shell_variables_expansionsvagrant@vagrant-ubuntu-trusty-64:~/holberton-system_engineering-devops/0x03-shell_variables_expansions$ cd[K[Kls
+[0m[01;32m0-alias[0m    [01;32m102-water_and_stir[0m       [01;32m12-combinations[0m            [01;32m1-hello_you[0m  [01;32m4-global_variables[0m       [01;32m7-create_global_variable[0m  README.md
+[01;32m100-rot13[0m  [01;32m10-love_exponent_breath[0m  [01;32m13-print_float[0m             [01;32m2-path[0m       [01;32m5-local_variables[0m        [01;32m8-true_knowledge[0m          typescript
+[01;32m101-odd[0m    [01;32m11-binary_to_decimal[0m     [01;32m14-decimal_to_hexadecimal[0m  [01;32m3-paths[0m      [01;32m6-create_local_variable[0m  [01;32m9-divide_and_rule[0m         typescript-1
+]0;vagrant@vagrant-ubuntu-trusty-64: ~/holberton-system_engineering-devops/0x03-shell_variables_expansionsvagrant@vagrant-ubuntu-trusty-64:~/holberton-system_engineering-devops/0x03-shell_variables_expansions$ cd ..
+]0;vagrant@vagrant-ubuntu-trusty-64: ~/holberton-system_engineering-devopsvagrant@vagrant-ubuntu-trusty-64:~/holberton-system_engineering-devops$ ls
+[0m[01;34m0x00-shell_basics[0m  [01;34m0x01-shell_permissions[0m  [01;34m0x02-shell_redirections[0m  [01;34m0x03-shell_variables_expansions[0m  README.md  typescriptShell0x00
+]0;vagrant@vagrant-ubuntu-trusty-64: ~/holberton-system_engineering-devopsvagrant@vagrant-ubuntu-trusty-64:~/holberton-system_engineering-devops$ cd ..
+]0;vagrant@vagrant-ubuntu-trusty-64: ~vagrant@vagrant-ubuntu-trusty-64:~$ cd holbertonschool-low_level_programming/
+]0;vagrant@vagrant-ubuntu-trusty-64: ~/holbertonschool-low_level_programmingvagrant@vagrant-ubuntu-trusty-64:~/holbertonschool-low_level_programming$ ls
+[0m[01;34m0x00-hello_world[0m  README.md
+]0;vagrant@vagrant-ubuntu-trusty-64: ~/holbertonschool-low_level_programmingvagrant@vagrant-ubuntu-trusty-64:~/holbertonschool-low_level_programming$ ls
+[0m[01;34m0x00-hello_world[0m  README.md
+]0;vagrant@vagrant-ubuntu-trusty-64: ~/holbertonschool-low_level_programmingvagrant@vagrant-ubuntu-trusty-64:~/holbertonschool-low_level_programming$ cd .[K0x00-hello_world/
+]0;vagrant@vagrant-ubuntu-trusty-64: ~/holbertonschool-low_level_programming/0x00-hello_worldvagrant@vagrant-ubuntu-trusty-64:~/holbertonschool-low_level_programming/0x00-hello_world$ ls
+[0m[01;32m0-preprocessor[0m  [01;32m1-compiler[0m  [01;32m2-assembler[0m  main.c  README.md  typescript
+]0;vagrant@vagrant-ubuntu-trusty-64: ~/holbertonschool-low_level_programming/0x00-hello_worldvagrant@vagrant-ubuntu-trusty-64:~/holbertonschool-low_level_programming/0x00-hello_world$ git add[K[K[Kstatus
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;vagrant@vagrant-ubuntu-trusty-64: ~/holbertonschool-low_level_programming/0x00-hello_worldvagrant@vagrant-ubuntu-trusty-64:~/holbertonschool-low_level_programming/0x00-hello_world$ vi[K[Kvim main.c 
+[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;41r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[41;1H"main.c" 9L, 98C[>c[1;1H[34m/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */[m
+[32mint[m main([32mvoid[m)
+{
+    [38;5;130mreturn[m ([31m0[m);
+}
+[94m~                                                                                                                                                                           [11;1H~                                                                                                                                                                           [12;1H~                                                                                                                                                                           [13;1H~                                                                                                                                                                           [14;1H~                                                                                                                                                                           [15;1H~                                                                                                                                                                           [16;1H~                                                                                                                                                                           [17;1H~                                                                                                                                                                           [18;1H~                                                                                                                                                                           [19;1H~                                                                                                                                                                           [20;1H~                                                                                                                                                                           [21;1H~                                                                                                                                                                           [22;1H~                                                                                                                                                                           [23;1H~                                                                                                                                                                           [24;1H~                                                                                                            
