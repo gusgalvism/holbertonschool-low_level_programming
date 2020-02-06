@@ -1,5 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
+
 /**
  * main - description
  * Description: Get a random number and print the number
@@ -20,7 +22,6 @@ int main(void)
 	else if (n == 0)
 	{
 		printf("%d is zero\n", n);
-
 	} 
 	else
 	{
