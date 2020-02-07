@@ -31,7 +31,7 @@ int main(void)
 			    	putchar(j);
 			    	putchar(k);
 
-			    	if (k == '7' && j == '9' && i == '8')
+			    	if (k == '9' && j == '8' && i == '7')
 			    		break;
 		    		putchar(',');
 			    	putchar(' ');
