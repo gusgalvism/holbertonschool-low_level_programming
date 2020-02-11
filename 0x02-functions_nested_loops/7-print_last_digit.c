@@ -2,11 +2,11 @@
 
 /**
  * print_last_digit - check the code for Holberton School students.
- * @n: parameter
+ * @b: parameter
  * Return: Always 0.
  */
 
-int print_last_digit(int n)
+int print_last_digit(int b)
 {
 	int a;
 
@@ -17,3 +17,4 @@ int print_last_digit(int n)
 	_putchar(a + '0');
 	return (a);
 }
+
