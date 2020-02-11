@@ -1,15 +1,15 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
+ * int print_sign - check the code for Holberton School students.
  *
  * Return: Always 0.
  */
 
 int print_sign(int n)
 {
-
 	if (n > '0')
+
 	{
 		_putchar ('+')
 			return (1);
@@ -26,6 +26,5 @@ int print_sign(int n)
 		_putchar ('-')
 			return (-1);
 	}
-
 }
 
