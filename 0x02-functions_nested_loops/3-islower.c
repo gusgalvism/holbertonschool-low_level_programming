@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * int _islower - check the code for Holberton School students.
+ * _islower - check the code for Holberton School students.
  * @c: parameter
  * Return: Always 0.
  */
