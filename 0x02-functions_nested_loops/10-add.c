@@ -1,7 +1,7 @@
-#include "holberton.h"
+# include "holberton.h"
 
 /**
- * int add - check the code for Holberton School students.
+ * add - get the last digit
  *
  * @a: int type
  * @b: int type
@@ -11,6 +11,4 @@
 
 int add(int a, int b)
 {
-	return (a + b);
-}
 
