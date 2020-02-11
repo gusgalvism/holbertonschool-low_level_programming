@@ -1,43 +1,24 @@
+# include "holberton.h"
 #include <stdio.h>
-#include "holberton.h"
-/**
- * print_to_98 - check the code for Holberton School students.
- * @n: char to check
- * Return: Always 0.
- */
-void print_to_98(int n)
-{
-	int a;
 
-	if (n <= 98)
+/**
+ * print_below_98 - check for numbers below 98
+ * @a: int type
+ *
+ *
+ * Return: return all values including 98
+ */
+
+void print_below_98(int a)
+{
+	int c;
+
+	for (c = a; c <= 98; c++)
 	{
-		for (a = n; a <= 98; a++)
-		{
-			if (a < 0)
-			{
-				printf("%d", a);
-			}
-			else
-			{
-				printf("%d", a);
-			}
-			if (x != 98)
-			{
-				printf(", ");
-			}
-		}
-		printf("\n");
-	} /* if n < 98 close */
-	else
-	{
-		for (a = n; a >= 98; a--)
-		{
-			printf("%d", a);
-			if (a != 98)
-			{
-				printf(", ");
-			}
-		}
-		printf("\n");
+		if (c != 98)
+			printf("%d, ", c);
+		else
+			printf("%d\n", c);
 	}
 }
+
