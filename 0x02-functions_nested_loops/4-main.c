@@ -1,3 +1,5 @@
+#include "holberton.h"
+
 /**
  * main - check the code for Holberton School students.
  *
@@ -18,3 +20,4 @@ int main(void)
 	_putchar('\n');
 	return (0);
 }
+
