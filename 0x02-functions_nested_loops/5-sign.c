@@ -2,7 +2,7 @@
 
 /**
  * int print_sign - check the code for Holberton School students.
- *
+ * @n: parameter
  * Return: Always 0.
  */
 

@@ -2,7 +2,7 @@
 
 /**
  * int _isalpha - check the code for Holberton School students.
- *
+ * @c: parameter
  * Return: Always 0.
  */
 
