@@ -7,13 +7,10 @@
 
 int _isupper(int c)
 {
-	if ((c > 96) && (c < 123))
-	{
-		Return(0);
-	}
-	else if ((c > 64) && (c < 01))
+	if ((c > 64) && (c < 91))
 	{
 		Return(1);
 	}
+	Return(0);
 }
-}
+
