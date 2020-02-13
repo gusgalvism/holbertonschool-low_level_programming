@@ -1,4 +1,5 @@
 #include <stdio.h>
+#define N 1000000000
 
 /**
  * main - prints the first 98 number
@@ -9,44 +10,41 @@
 
 int main(void)
 {
-	long fib1, fib1a, fib1b, fib2, fib2a, fib2b, fib3, fib3a, fib3b;
-	long divi = 10000000000;
+	unsigned long a, b, r, i, a1, a2, b1, b2, r1, r2;
 
-	fib1 = 0;
-	fib2 = 1;
-	int counter = 1;
+	a = 1;
+	b = 2;
+	r = a + b;
 
-	for (counter = 0; counter < 91; counter++)
+	printf("%lu, %lu, ", a, b);
+	for (i = 0; i < 86; i++)
 	{
-		fib3 =  fib2 + fib1;
-		fib1 = fib2;
-		fib2 = fib3;
-		printf("%ld, ", fib3);
+		printf("%lu, ", r);
+		a = b;
+		b = r;
+		r = a + b;
 	}
-	fib1a = fib1 / divi;
-	fib1b = fib1 % divi;
-	fib2a = fib2 / divi;
-	fib2b = fib2 % divi;
-	for (; counter < 98; counter++)
+
+	b1 = b / N;
+	b2 = b % N;
+	r1 = r / N;
+	r2 = r % N;
+
+	for (i = 0; i < 9; i++)
 	{
-		fib3a = fib1a + fib2a;
-		fib3b = fib1b + fib2b;
-		if (fib3b > divi)
-		{
-			fib3b = fib3b % divi;
-			fib3a++;
-		}
-		if (counter != 97)
-		{
-			printf("%ld%ld, ", fib3a, fib3b);
-			fib1a = fib2a;
-			fib1b = fib2b;
-			fib2a = fib3a;
-			fib2b = fib3b;
-		}
-		else
-			printf("%ld%ld\n", fib3a, fib3b);
+		printf("%lu%lu, ", r1, r2);
+		a1 = b1;
+		a2 = b2;
+		b1 = r1;
+		b2 = r2;
+
+		r1 = a1 + b1 + (a2 + b2) / N;
+		r2 = (a2 + b2) % N;
 	}
+
+	printf("%lu%lu\n", r1, r2);
+
+
 	return (0);
 }
 
