@@ -1,9 +1,9 @@
-nclude "stdio.h"
+#include "stdio.h"
 
 /**
  * main - sum the even  numbers  below
  * 4000000 in  fibobnachi sequence
- * Description: fibobnachi numbers starting from 1
+ * Description: fibobnachi numbers starting from one
  * Return: 0
  */
 
