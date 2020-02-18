@@ -1,8 +1,10 @@
 #include  "holberton.h"
+
 /**
  * print_rev - prints a string, in reverse
- *@str: char type
+ *@s: string type
  *
+ * Return: a string, in reverse
  */
 
 void print_rev(char *s)
@@ -21,3 +23,4 @@ void print_rev(char *s)
 	}
 	_putchar('\n');
 }
+

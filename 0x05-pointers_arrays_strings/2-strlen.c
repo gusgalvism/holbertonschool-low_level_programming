@@ -1,8 +1,10 @@
-#include  "holberton.h"
+#include "holberton.h"
+
 /**
- * strlen - returns the length
- *@s: char type
+ * _strlen - returns the length of the string
+ * @s: the string to get the length
  *
+ * Return: lenght of the string
  */
 
 int _strlen(char *s)
@@ -15,3 +17,4 @@ int _strlen(char *s)
 	}
 	return (a);
 }
+

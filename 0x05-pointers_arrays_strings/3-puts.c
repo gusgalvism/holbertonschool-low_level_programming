@@ -1,6 +1,7 @@
 #include  "holberton.h"
+
 /**
- * puts - prints a string
+ * _puts - prints a string
  *@str: char type
  *
  */
@@ -15,3 +16,4 @@ void _puts(char *str)
 	}
 	_putchar('\n');
 }
+
