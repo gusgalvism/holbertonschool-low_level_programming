@@ -2,21 +2,18 @@
 
 /**
  * _strcat - that concatenates two strings
- *
  * @dest: char type
  * @src: char type
  * Return:  concatenated two strings
  */
 
 char *_strcat(char *dest, char *src)
-
 {
 	int a;
 	Int b;
 
 	for (a = 0; dest[a] != '\0'; a++)
 	{
-
 	}
 	for (size = 0; src[b] != '\0'; b++)
 	{
