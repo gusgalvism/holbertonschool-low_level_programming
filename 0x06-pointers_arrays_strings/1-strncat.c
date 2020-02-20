@@ -1,7 +1,4 @@
-R:
-
-
-#include <stdio.h>
+#include "holberton.h"
 
 /**
  * _strncat - function to concatnate strings with n bytes
