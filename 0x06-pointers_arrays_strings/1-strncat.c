@@ -10,7 +10,6 @@
  */
 
 char *_strncat(char *dest, char *src, int n)
-
 {
 	int a;
 	int b;
@@ -23,7 +22,6 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		return (dest);
 	}
-
 
 
 	for (a = 0; dest[a] != '\0'; a++)
