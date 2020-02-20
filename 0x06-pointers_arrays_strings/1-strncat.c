@@ -14,16 +14,6 @@ char *_strncat(char *dest, char *src, int n)
 	int a;
 	int b;
 
-	if (dest == NULL)
-	{
-		return (NULL);
-	}
-	if (src == NULL)
-	{
-		return (dest);
-	}
-
-
 	for (a = 0; dest[a] != '\0'; a++)
 	{
 	}
