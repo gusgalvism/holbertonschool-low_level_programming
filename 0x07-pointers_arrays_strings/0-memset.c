@@ -1,11 +1,11 @@
-#include "hollberton.h"
+#include "holberton.h"
 
 /**
  * *_memset - set memory function
  * @s: pointer to array
  * @b: char type
  * @n: unsigned int
- * return: s
+ * Return: s
  */
 
 char *_memset(char *s, char b, unsigned int n)
